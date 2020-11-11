@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+html, body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background: rgb(32, 32, 36);
+}
+
+header .itens-haeader {
+    width: 70%;
+    height: 70px;
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .itens-haeader .itens-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 400px;
+}
+
+header .itens-haeader .itens-right p {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(225, 225, 230);
+    transition: color 0.2s ease 0s;
+    margin-right: 12px;
+}
+
+header .itens-haeader .itens-right .button-home {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.2s ease 0s;
+}
+
+header .itens-haeader .itens-right .button-home:hover {
+    background: #000000;
+    border-radius: 5px;
+}
+
+header .itens-haeader .itens-right .image-a {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+header .itens-haeader .itens-right .image-a img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+    border: 2px solid rgb(225, 225, 230);
+    border-radius: 100%;
+    background-image: url('../assets/user-avatar.png');
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+
+
+main {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.list-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(650px, auto);
+    gap: 24px;
+}
+
+.list-cards .card {
+    background: rgb(32, 32, 36);
+    position: relative;
+    border-radius: 8px;
+    transition: all 0.2s ease 0s;
+    padding: 64px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border: 2px solid rgb(32, 32, 36);
+}
+
+
+
+
+

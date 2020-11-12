@@ -4,7 +4,9 @@ import './styles/styles.css'
 
 import LogoImg from './assets/logo.png'
 import avatarImg from './assets/avatar.svg'
-import LaunchBase from './assets/launchBase.png'
+import Starter from './assets/starter.png'
+import LaunchBase from './assets/lauchbase.png'
+import goStak from './assets/gostack.png'
 
 function App() {
   return (
@@ -37,11 +39,29 @@ function App() {
       <main>
 
         <div className="list-cards">
-          <div className="card">
-            <img src={LaunchBase} alt="" />
-
-            <p><strong>Domine programação do zero</strong> e tenha acesso às melhores oportunidades do mercado</p>
+          <div className="card card-starter">
+            <div className="starter">
+              <img src={Starter} alt="" />
+              <p><strong>Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos</p>
+            </div>
           </div>
+
+          <div className="card card-launch">
+            <div className="launchbase">
+              <img src={LaunchBase} alt="" />
+              <p><strong>Domine programação do zero</strong> e tenha acesso às melhores oportunidades do mercado</p>
+            </div>
+          </div>
+
+          <div className="card card-go">
+            <div className="gostack">
+              <img src={goStak} alt="" />
+              <p><strong>Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+            </div>
+
+            <a href="https://rocketseat.com.br/bootcamp" target="_blank"><strong>Garanta sua vaga</strong> para a próxima turma!</a>
+          </div>
+
         </div>
 
       </main>

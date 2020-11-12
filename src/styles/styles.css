@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
 }
 
 button {
@@ -79,7 +81,6 @@ header .itens-haeader .itens-right .image-a img{
     padding: 2px;
     border: 2px solid rgb(225, 225, 230);
     border-radius: 100%;
-    background-image: url('../assets/user-avatar.png');
     background-position: center center;
     background-size: cover;
     background-clip: content-box;
@@ -108,10 +109,75 @@ main {
     display: flex;
     width: 100%;
     flex-direction: column;
-    -webkit-box-pack: justify;
+
     justify-content: space-between;
+    align-items: center;
+    
     border: 2px solid rgb(32, 32, 36);
+
+    text-align: center;
+    cursor: pointer;
 }
+
+.list-cards .card p {
+    max-width: 270px;
+    text-align: center;
+    color: rgb(135, 134, 139);
+    font-size: 16px;
+    line-height: 26px;
+
+    margin-top: 50px;
+}
+
+.list-cards .starter, 
+.list-cards .launchbase,
+.list-cards .gostack {
+    margin-top: 100px;
+}
+
+.list-cards .starter strong {
+    color: rgb(130, 87, 229);
+}
+
+.list-cards .launchbase strong {
+    color: rgb(253, 149, 31);
+}
+
+.list-cards .gostack strong {
+    color: rgb(4, 211, 97);
+}
+
+.list-cards .card a {
+    position: relative;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(4, 211, 97);
+    color: rgb(34, 34, 34);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-self: center;
+    margin-top: 35px;
+}
+
+.list-cards .card a:hover{
+    color: #ffffff;
+    background: rgb(32, 32, 36);
+
+    border: 1px solid rgb(4, 211, 97);
+}
+
+.list-cards .card-starter:hover {
+    border: 2px solid rgb(130, 87, 229);   
+}
+
+.list-cards .card-launch:hover {
+    border: 2px solid rgb(253, 149, 31);   
+}
+
+
+
 
 
 

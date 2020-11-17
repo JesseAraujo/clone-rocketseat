@@ -169,11 +169,28 @@ main {
 }
 
 .list-cards .card-starter:hover {
-    border: 2px solid rgb(130, 87, 229);   
+     position: relative;
+    border: 2px solid rgb(113, 89, 193);
+    animation: zoom 200ms ease-out;
+        -webkit-animation-fill-mode: forwards; 
 }
 
 .list-cards .card-launch:hover {
-    border: 2px solid rgb(253, 149, 31);   
+    position: relative;
+    border: 2px solid rgb(253, 149, 31);
+    animation: zoom 200ms ease-out;
+        -webkit-animation-fill-mode: forwards;   
+}
+
+
+@keyframes zoom {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: -10px;
+    }
 }
 
 

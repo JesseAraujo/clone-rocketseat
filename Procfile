@@ -1,1 +1,1 @@
-web: https://clone-rocketseat.herokuapp.com/
+web: npm start

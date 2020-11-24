@@ -8,5 +8,9 @@
   <img alt="Clone Rocketseat" src="./src/assets/home.png" />
 </h1>
 
+<h1 align="center">
+  <img alt="Clone Rocketseat" src="./src/assets/home2.png" />
+</h1>
+
 
 

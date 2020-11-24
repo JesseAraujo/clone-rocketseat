@@ -67,6 +67,12 @@ header .itens-haeader .itens-right .button-home:hover {
     border-radius: 5px;
 }
 
+header .itens-haeader .itens-right .button-home .icon {
+    width: 23px;
+    height: 23px;
+    color: #A8A8B3;
+}
+
 header .itens-haeader .itens-right .image-a {
     position: relative;
     width: 50px;

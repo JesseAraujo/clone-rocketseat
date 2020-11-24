@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdNotifications } from "react-icons/md";
 
 import './styles/styles.css'
 
@@ -22,7 +23,7 @@ function App() {
             </button>
 
             <button className="button-home">
-              <img src={avatarImg} alt="" />
+              <MdNotifications className='icon' />
             </button>
 
             <p>Jessé Brisola de Araujo</p>
